@@ -1,0 +1,16 @@
+cache_dir: "D:/HF_models/hub"
+
+model_id: "stabilityai/stable-diffusion-xl-base-1.0"
+dtype: "float16"
+variant: "fp16"
+use_safetensors: true
+
+defaults:
+  out_dir: "./output"
+  width: 512
+  height: 512
+  steps: 30
+  guidance_scale: 10.5
+  strength: 0.9
+  negative_prompt: ""
+  seed: null
